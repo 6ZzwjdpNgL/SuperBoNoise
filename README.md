@@ -6,9 +6,9 @@ This Decomp is somewhat finished and Playable
 
 GameMaker Version Used: 2024.2.0.132
 
-## Issues
-- States have not been changed to use Enums
-- Decomp is currently not organized
+## sigma edit
+
+https://github.com/user-attachments/assets/88cc2460-d741-467e-9f28-ca6238ffc265
 
 ### Thanks to
 - QuantumV, for his decompiler
