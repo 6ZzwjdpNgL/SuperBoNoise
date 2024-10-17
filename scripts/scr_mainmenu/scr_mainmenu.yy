@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_mainmenu",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_mainmenu",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

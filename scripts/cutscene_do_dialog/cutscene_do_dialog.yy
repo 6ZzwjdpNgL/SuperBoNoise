@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"cutscene_do_dialog",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"cutscene_do_dialog",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"gml_Script_gameframe_get_monitors_1",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"gml_Script_gameframe_get_monitors_1",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

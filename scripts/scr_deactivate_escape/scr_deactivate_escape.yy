@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_deactivate_escape",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_deactivate_escape",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

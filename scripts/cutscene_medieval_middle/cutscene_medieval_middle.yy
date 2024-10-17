@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"cutscene_medieval_middle",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"cutscene_medieval_middle",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_editor_init_buttons",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_editor_init_buttons",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

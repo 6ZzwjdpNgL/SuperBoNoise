@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_block_utilities",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_block_utilities",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

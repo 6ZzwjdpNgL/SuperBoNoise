@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_turret_states",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_turret_states",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

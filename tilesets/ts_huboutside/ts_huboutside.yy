@@ -1,0 +1,44 @@
+{
+  "$GMTileSet":"",
+  "%Name":"ts_huboutside",
+  "autoTileSets":[],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"ts_huboutside",
+  "out_columns":5,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Tile Sets",
+    "path":"folders/Tile Sets.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"tspr_huboutside",
+    "path":"sprites/tspr_huboutside/tspr_huboutside.yy",
+  },
+  "spriteNoExport":true,
+  "textureGroupId":{
+    "name":"hubgroup",
+    "path":"texturegroups/hubgroup",
+  },
+  "tileAnimation":{
+    "FrameData":[
+      0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,
+    ],
+    "SerialiseFrameCount":1,
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.00015,
+  "tileHeight":32,
+  "tilehsep":4,
+  "tilevsep":4,
+  "tileWidth":32,
+  "tilexoff":2,
+  "tileyoff":2,
+  "tile_count":25,
+}

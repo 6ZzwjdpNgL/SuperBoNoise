@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"gml_Script_gameframe_mouse_in_window",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"gml_Script_gameframe_mouse_in_window",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

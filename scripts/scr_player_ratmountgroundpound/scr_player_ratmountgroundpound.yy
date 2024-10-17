@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_player_ratmountgroundpound",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_player_ratmountgroundpound",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

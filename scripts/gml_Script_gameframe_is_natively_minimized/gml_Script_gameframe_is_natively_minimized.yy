@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"gml_Script_gameframe_is_natively_minimized",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"gml_Script_gameframe_is_natively_minimized",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

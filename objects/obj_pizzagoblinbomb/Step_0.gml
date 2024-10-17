@@ -1,0 +1,53 @@
+if (defused == 1)
+    countdown -= 0.5
+if (countdown < 50)
+    sprite_index = bomblit_spr
+if (countdown == 0)
+    instance_destroy()
+if (kickbuffer > 0)
+{
+    if (!(place_meeting(x, y, obj_player1)))
+        kickbuffer = 0
+}
+switch state
+{
+    case (2 << 0):
+        hsp = movespeed * image_xscale
+        if (place_meeting((x + hsp), y, obj_solid) && (!(place_meeting((x + hsp), y, obj_ratblock))))
+            image_xscale *= -1
+        if (place_meeting((x + hsp), y, obj_ratblock) || place_meeting(x, (y + vsp), obj_ratblock))
+            instance_destroy()
+        if (scr_solid((x + 1), y) || scr_solid((x - 1), y))
+            drop = 1
+        if grounded
+        {
+            if (movespeed > 0)
+                movespeed -= 0.5
+        }
+        if place_meeting(x, (y + 1), obj_railparent)
+        {
+            var _railinst = instance_place(x, (y + 1), obj_railparent)
+            hsp = _railinst.movespeed * _railinst.dir
+        }
+        if (vsp < 12)
+            vsp += grav
+        scr_collide()
+        break
+    case (6 << 0):
+        grounded = false
+        x = playerid.x
+        y = playerid.y - 40
+        image_xscale = playerid.xscale
+        if (playerid.state != (54 << 0) && playerid.state != (78 << 0))
+            state = (2 << 0)
+        if (playerid.state == (78 << 0))
+        {
+            if playerid.grounded
+                instance_destroy()
+        }
+        break
+    default:
+        state = (2 << 0)
+        break
+}
+
