@@ -1,6 +1,6 @@
 var _channels = 256
 var _coreflags = (0 << 0)
-var _studioflags = (0 << 0)/*
+var _studioflags = (0 << 0)
 fmod_studio_system_create()
 show_debug_message("fmod_studio_system_create: " + string(fmod_last_result()))
 fmod_studio_system_init(_channels, _studioflags, _coreflags)
@@ -14,7 +14,7 @@ for (var i = 0; i < array_length(banks); i++)
     show_debug_message(concat("Loaded ", banks[i], ": ", string(fmod_last_result())))
     fmod_studio_bank_load_sample_data(bank)
     show_debug_message(concat("Sample data for ", banks[i], ": ", string(fmod_last_result())))
-}*/
+}
 z = 0
 global.FMOD_default3DAttributes = 
 {

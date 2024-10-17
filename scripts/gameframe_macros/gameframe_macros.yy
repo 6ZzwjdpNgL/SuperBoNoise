@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"gameframe_macros",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Gameframe",
+    "path":"folders/Extensions/Gameframe.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
